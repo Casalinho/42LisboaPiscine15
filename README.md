@@ -2,14 +2,14 @@ Repositorio da Piscine #15
 
 Avaliacoes:
 
-Eu Aceito Lisboa [100%]
+[100%] Eu Aceito Lisboa 
 
-C Piscine Shell 00 [100%]
+[100%] C Piscine Shell 00 
 
-C Piscine Shell 01 
+[  0%] C Piscine Shell 01 
 
-C Piscine C00
+[ 50%] C Piscine C00
 
-C Piscine C01
+[  0%] C Piscine C01
 
-C Piscine Rush 00
+[  0%] C Piscine Rush 00
