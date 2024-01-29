@@ -3,33 +3,33 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcrispim <mcrispim@student.42lisboa.c      +#+  +:+       +#+        */
+/*   By: gmorgado <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/25 15:40:33 by mcrispim          #+#    #+#             */
-/*   Updated: 2024/01/27 19:02:35 by mcrispim         ###   ########.fr       */
+/*   Created: 2024/01/29 10:58:01 by gmorgado          #+#    #+#             */
+/*   Updated: 2024/01/29 11:13:22 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*
+
 #include <stdio.h>
-*/
+
 void	ft_swap(int *a, int *b)
 {
-	int	old_a;
+	int	c;
 
-	old_a = *a;
+	c = *a;
 	*a = *b;
-	*b = old_a;
+	*b = c;
 }
-/*
-int	main(void)
-{
-	int	a;
-	int	b;
 
-	a = 5;
-	b = 10;
-	printf("a= %d b= %d\n", a, b);
-	ft_swap(&a, &b);
-	printf("a= %d b= %d", a, b);
-}
-*/
+/* int main(void)
+{
+	int a;
+	int b;
+
+	a = 2;
+	b = 4;
+	printf("a = %d b = %d\n", a, b);
+	ft_swap(&a , &b);
+	printf("a = %d b = %d", a, b);
+	return (0);
+} */
