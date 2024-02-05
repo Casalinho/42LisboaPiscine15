@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gmorgado <gmorgado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/29 19:09:02 by gmorgado          #+#    #+#             */
-/*   Updated: 2024/01/29 19:30:06 by gmorgado         ###   ########.fr       */
+/*   Created: 2024/01/29 21:22:53 by gmorgado          #+#    #+#             */
+/*   Updated: 2024/01/29 21:28:29 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,18 @@ void	ft_rev_int_tab(int *tab, int size)
 }
 
 // int main(void) {
-//     int array[5] = {1, 2, 3, 4, 5};
-//     int i;
-//     printf("Array antes da reversão:  ");
-//     for (i = 0; i < 5; i++) {
-//         printf("%d|", array[i]);
-//     }
-//     printf("\n");
-//     ft_rev_int_tab(array, 5);
-//     printf("Array depois da reversão: ");
-//     for (i = 0; i < 5; i++) {
-//         printf("%d|", array[i]);
-//     }
-//     printf("\n");
-//     return 0;
+// 	int array[5] = {1, 2, 3, 4, 5};
+// 	int i;
+// 	printf("Array antes da reversão:  |");
+// 	for (i = 0; i < 5; i++) {
+// 		printf("%d|", array[i]);
+// 	}
+// 	printf("\n");
+// 	ft_rev_int_tab(array, 5);
+// 	printf("Array depois da reversão: |");
+// 	for (i = 0; i < 5; i++) {
+// 		printf("%d|", array[i]);
+// 	}
+// 	printf("\n");
+// 	return 0;
 // }

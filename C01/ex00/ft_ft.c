@@ -6,7 +6,7 @@
 /*   By: gmorgado <gmorgado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/26 23:07:17 by gmorgado          #+#    #+#             */
-/*   Updated: 2024/01/29 16:33:27 by gmorgado         ###   ########.fr       */
+/*   Updated: 2024/01/31 19:29:36 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@ void	ft_ft(int *nbr)
 	*nbr = 42;
 }
 
-// int	main()
+// int	main(void)
 // {
-// 	int	*nbr;
-// 	int	number;
+// 	int *nbr;
+// 	int number;
 
 // 	nbr = &number;
 // 	ft_ft(nbr);
