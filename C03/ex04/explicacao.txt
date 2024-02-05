@@ -1,0 +1,7 @@
+    i será usada para percorrer a string str.
+    w será usada para percorrer a string to_find.
+
+Verificação de Caso Especial Se to_find for uma string vazia a função retorna str, 
+
+Para cada posição i ela vai comparar os caracteres de to_find com os caracteres de str começando pelo i =0
+Se todos os caracteres de to_find forem encontrados a função retorna um ponteiro para a posição de str onde a sub-string começa
