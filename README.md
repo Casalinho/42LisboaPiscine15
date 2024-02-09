@@ -10,6 +10,10 @@ Avaliacoes:
 
 [ 50%] C Piscine C00
 
-[  0%] C Piscine C01
+[100%] C Piscine C01
+
+[65%] C Piscine C02
+
+[100%] C Piscine C03
 
 [  0%] C Piscine Rush 00
