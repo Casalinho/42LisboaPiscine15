@@ -1,6 +1,6 @@
 Repositorio da Piscine #15
 
-Avaliacoes:
+Minhas Avaliacoes:
 
 [100%] Eu Aceito Lisboa 
 
@@ -16,4 +16,4 @@ Avaliacoes:
 
 [100%] C Piscine C03
 
-[  0%] C Piscine Rush 00
+[ 10%] C Piscine Rush 00
