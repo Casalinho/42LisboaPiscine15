@@ -6,46 +6,18 @@
 /*   By: gmorgado <gmorgado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 11:36:20 by gmorgado          #+#    #+#             */
-/*   Updated: 2024/02/14 11:43:08 by gmorgado         ###   ########.fr       */
+/*   Updated: 2024/02/14 19:40:05 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <unistd.h> 
+#include <unistd.h>
 
 void	ft_putchar(char c);
 void	ft_putstr(char *str);
 int		ft_strcmp(char *s1, char *s2);
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
-void	ft_putstr(char *str)
-{
-	int i;
-
-	i = 0;
-	while (*(str + i) != '\0')
-	{
-		ft_putchar(*(str + i));
-		i++;
-	}
-	ft_putchar('\n');
-}
-
-int		ft_strcmp(char *s1, char *s2)
-{
-	while (*s1 == *s2 && *s1)
-	{
-		s1++;
-		s2++;
-	}
-	return (*s1 - *s2);
-}
-
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	int		i1;
 	int		i2;
@@ -69,5 +41,33 @@ int		main(int argc, char **argv)
 	i1 = 0;
 	while (++i1 < argc)
 		ft_putstr(argv[i1]);
-    return (0);
+	return (0);
+}
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (*(str + i) != '\0')
+	{
+		ft_putchar(*(str + i));
+		i++;
+	}
+	ft_putchar('\n');
+}
+
+int	ft_strcmp(char *s1, char *s2)
+{
+	while (*s1 == *s2 && *s1)
+	{
+		s1++;
+		s2++;
+	}
+	return (*s1 - *s2);
 }
