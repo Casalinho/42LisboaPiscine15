@@ -6,7 +6,7 @@
 /*   By: gmorgado <gmorgado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 03:45:21 by gmorgado          #+#    #+#             */
-/*   Updated: 2024/02/12 05:22:23 by gmorgado         ###   ########.fr       */
+/*   Updated: 2024/02/12 11:40:45 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,17 +45,17 @@ int	ft_is_prime(int nb)
 	return (1);
 }
 
-// int	main(void)
-// {
-// 	int	num;
-// 	int	next_prime;
+int	main(void)
+{
+	int	num;
+	int	next_prime;
 
-// 	printf("Digite um numero: ");
-// 	scanf("%d", &num);
-// 	next_prime = ft_find_next_prime(num);
-// 	if (num == next_prime)
-// 		printf("Erro, Impossivel determinar\no Numero [%d] ja e primo.\n", num);
-// 	else
-// 		printf("O proximo numero primo apos %d e [%d]\n", num, next_prime);
-// 	return (0);
-// }
+	printf("Digite um numero: ");
+	scanf("%d", &num);
+	next_prime = ft_find_next_prime(num);
+	if (num == next_prime)
+		printf("Erro, Impossivel determinar\no Numero [%d] ja e primo.\n", num);
+	else
+		printf("O proximo numero primo apos %d e [%d]\n", num, next_prime);
+	return (0);
+}

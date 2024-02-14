@@ -6,7 +6,7 @@
 /*   By: gmorgado <gmorgado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 01:05:37 by gmorgado          #+#    #+#             */
-/*   Updated: 2024/02/12 05:40:07 by gmorgado         ###   ########.fr       */
+/*   Updated: 2024/02/12 16:24:50 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,10 @@ int	ft_recursive_factorial(int nb)
 //     resultado = ft_recursive_factorial(original);
 
 //     if (resultado == 0)
+// 	{
 //         printf("Não é possível calcular o fatorial\n");
 //         printf("Número negativo.\n");
+// 	}
 //     else
 //         printf("O fatorial recursivo de %d é: %d\n", original, resultado);
 
