@@ -1,0 +1,11 @@
+done:
+
+estrutura do enunciado com os erros inicias dos argumentos feita
+
+consigo ler o ficheiro linha a linha
+
+consiguimos guardar casda linha nova
+
+undone:
+
+colocar cada linha num arrray de strings e retorna-lo (para testar usar putstr num while)
