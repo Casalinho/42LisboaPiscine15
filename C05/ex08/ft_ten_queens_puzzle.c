@@ -6,7 +6,7 @@
 /*   By: gmorgado <gmorgado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 05:52:50 by gmorgado          #+#    #+#             */
-/*   Updated: 2024/02/12 16:22:57 by gmorgado         ###   ########.fr       */
+/*   Updated: 2024/02/14 23:45:25 by gmorgado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,12 +83,12 @@ int	ft_ten_queens_puzzle(void)
 	return (colocar_rainha(0));
 }
 
-// int	main(void)
-// {
-// 	int	total_solucoes;
+int	main(void)
+{
+	int	total_solucoes;
 
-// 	printf("Possibilidades de posicionar as Dez Damas:\n");
-// 	total_solucoes = ft_ten_queens_puzzle();
-// 	printf("Total de solucoes encontradas: %d\n", total_solucoes);
-// 	return (0);
-// }
+	printf("Possibilidades de posicionar as Dez Damas:\n");
+	total_solucoes = ft_ten_queens_puzzle();
+	printf("Total de solucoes encontradas: %d\n", total_solucoes);
+	return (0);
+}
